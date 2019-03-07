@@ -49,6 +49,11 @@ public class DataSourceBasicTest {
     private static JdbcTemplate jdbcTemplate;
     private static JdbcTemplate directJdbcTemplate;
 
+    @Test
+    public void tableCreate(){
+        jdbcTemplate.update(TABLE_CREATE_SQL);
+    }
+
     /**
      * Test insert.
      */

@@ -13,5 +13,19 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 #
+jdbc.account.url=jdbc:mysql://localhost:3306/demo
+jdbc.account.username=root
+jdbc.account.password=test123456
+jdbc.account.driver=com.mysql.jdbc.Driver
+# storage db config
+jdbc.storage.url=jdbc:mysql://localhost:3306/demo
+jdbc.storage.username=root
+jdbc.storage.password=test123456
+jdbc.storage.driver=com.mysql.jdbc.Driver
+# order db config
+jdbc.order.url=jdbc:mysql://localhost:3306/demo
+jdbc.order.username=root
+jdbc.order.password=test123456
+jdbc.order.driver=com.mysql.jdbc.Driver
 
 com.alibaba.fescar.dubbo.alibaba.TransactionPropagationFilter
